@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABBE8C15177F41B500B2C15A /* MJPathLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBE8C14177F41B500B2C15A /* MJPathLayer.m */; };
 		ABD2DA06177F2CAA0059BE66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD2DA05177F2CAA0059BE66 /* UIKit.framework */; };
 		ABD2DA08177F2CAA0059BE66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD2DA07177F2CAA0059BE66 /* Foundation.framework */; };
 		ABD2DA0A177F2CAA0059BE66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD2DA09177F2CAA0059BE66 /* CoreGraphics.framework */; };
@@ -18,9 +19,14 @@
 		ABD2DA1C177F2CAA0059BE66 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DA1B177F2CAA0059BE66 /* Default-568h@2x.png */; };
 		ABD2DA1F177F2CAB0059BE66 /* MJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD2DA1E177F2CAB0059BE66 /* MJViewController.m */; };
 		ABD2DA22177F2CAB0059BE66 /* MJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DA20177F2CAB0059BE66 /* MJViewController.xib */; };
+		ABD2DA2B177F2D480059BE66 /* MJPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD2DA2A177F2D480059BE66 /* MJPasswordView.m */; };
+		ABD2DA2E177F31D60059BE66 /* MJCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD2DA2D177F31D60059BE66 /* MJCircleLayer.m */; };
+		ABD2DA30177F37930059BE66 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD2DA2F177F37930059BE66 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ABBE8C13177F41B500B2C15A /* MJPathLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJPathLayer.h; path = mjpasswordview/MJPathLayer.h; sourceTree = "<group>"; };
+		ABBE8C14177F41B500B2C15A /* MJPathLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJPathLayer.m; path = mjpasswordview/MJPathLayer.m; sourceTree = "<group>"; };
 		ABD2DA02177F2CAA0059BE66 /* MJPasswordView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJPasswordView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD2DA05177F2CAA0059BE66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ABD2DA07177F2CAA0059BE66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +43,11 @@
 		ABD2DA1D177F2CAB0059BE66 /* MJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJViewController.h; sourceTree = "<group>"; };
 		ABD2DA1E177F2CAB0059BE66 /* MJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJViewController.m; sourceTree = "<group>"; };
 		ABD2DA21177F2CAB0059BE66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MJViewController.xib; sourceTree = "<group>"; };
+		ABD2DA29177F2D480059BE66 /* MJPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJPasswordView.h; path = mjpasswordview/MJPasswordView.h; sourceTree = "<group>"; };
+		ABD2DA2A177F2D480059BE66 /* MJPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJPasswordView.m; path = mjpasswordview/MJPasswordView.m; sourceTree = "<group>"; };
+		ABD2DA2C177F31D60059BE66 /* MJCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJCircleLayer.h; path = mjpasswordview/MJCircleLayer.h; sourceTree = "<group>"; };
+		ABD2DA2D177F31D60059BE66 /* MJCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJCircleLayer.m; path = mjpasswordview/MJCircleLayer.m; sourceTree = "<group>"; };
+		ABD2DA2F177F37930059BE66 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD2DA30177F37930059BE66 /* QuartzCore.framework in Frameworks */,
 				ABD2DA06177F2CAA0059BE66 /* UIKit.framework in Frameworks */,
 				ABD2DA08177F2CAA0059BE66 /* Foundation.framework in Frameworks */,
 				ABD2DA0A177F2CAA0059BE66 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +68,7 @@
 		ABD2D9F9177F2CAA0059BE66 = {
 			isa = PBXGroup;
 			children = (
+				ABD2DA2F177F37930059BE66 /* QuartzCore.framework */,
 				ABD2DA0B177F2CAA0059BE66 /* MJPasswordView */,
 				ABD2DA04177F2CAA0059BE66 /* Frameworks */,
 				ABD2DA03177F2CAA0059BE66 /* Products */,
@@ -83,6 +96,7 @@
 		ABD2DA0B177F2CAA0059BE66 /* MJPasswordView */ = {
 			isa = PBXGroup;
 			children = (
+				ABD2DA28177F2CFC0059BE66 /* MJPasswordView */,
 				ABD2DA14177F2CAA0059BE66 /* MJAppDelegate.h */,
 				ABD2DA15177F2CAA0059BE66 /* MJAppDelegate.m */,
 				ABD2DA1D177F2CAB0059BE66 /* MJViewController.h */,
@@ -105,6 +119,19 @@
 				ABD2DA1B177F2CAA0059BE66 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABD2DA28177F2CFC0059BE66 /* MJPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2DA29177F2D480059BE66 /* MJPasswordView.h */,
+				ABD2DA2A177F2D480059BE66 /* MJPasswordView.m */,
+				ABD2DA2C177F31D60059BE66 /* MJCircleLayer.h */,
+				ABD2DA2D177F31D60059BE66 /* MJCircleLayer.m */,
+				ABBE8C13177F41B500B2C15A /* MJPathLayer.h */,
+				ABBE8C14177F41B500B2C15A /* MJPathLayer.m */,
+			);
+			name = MJPasswordView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +204,9 @@
 				ABD2DA12177F2CAA0059BE66 /* main.m in Sources */,
 				ABD2DA16177F2CAA0059BE66 /* MJAppDelegate.m in Sources */,
 				ABD2DA1F177F2CAB0059BE66 /* MJViewController.m in Sources */,
+				ABD2DA2B177F2D480059BE66 /* MJPasswordView.m in Sources */,
+				ABD2DA2E177F31D60059BE66 /* MJCircleLayer.m in Sources */,
+				ABBE8C15177F41B500B2C15A /* MJPathLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +327,7 @@
 				ABD2DA27177F2CAB0059BE66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

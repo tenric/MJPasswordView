@@ -7,17 +7,31 @@
 //
 
 #import "MJViewController.h"
+#import "MJPasswordView.h"
 
 @interface MJViewController ()
+
+@property (nonatomic,retain) MJPasswordView* passwordView;
 
 @end
 
 @implementation MJViewController
 
+- (void)dealloc
+{
+    self.passwordView = nil;
+    
+    [super dealloc];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    CGRect frame = CGRectMake(20, 100, kPasswordViewSideLength, kPasswordViewSideLength);
+    self.passwordView = [[[MJPasswordView alloc] initWithFrame:frame] autorelease];
+    [self.view addSubview:self.passwordView];
 }
 
 - (void)didReceiveMemoryWarning
