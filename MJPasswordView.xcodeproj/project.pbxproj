@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABD2DA06177F2CAA0059BE66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD2DA05177F2CAA0059BE66 /* UIKit.framework */; };
+		ABD2DA08177F2CAA0059BE66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD2DA07177F2CAA0059BE66 /* Foundation.framework */; };
+		ABD2DA0A177F2CAA0059BE66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD2DA09177F2CAA0059BE66 /* CoreGraphics.framework */; };
+		ABD2DA10177F2CAA0059BE66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DA0E177F2CAA0059BE66 /* InfoPlist.strings */; };
+		ABD2DA12177F2CAA0059BE66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD2DA11177F2CAA0059BE66 /* main.m */; };
+		ABD2DA16177F2CAA0059BE66 /* MJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD2DA15177F2CAA0059BE66 /* MJAppDelegate.m */; };
+		ABD2DA18177F2CAA0059BE66 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DA17177F2CAA0059BE66 /* Default.png */; };
+		ABD2DA1A177F2CAA0059BE66 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DA19177F2CAA0059BE66 /* Default@2x.png */; };
+		ABD2DA1C177F2CAA0059BE66 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DA1B177F2CAA0059BE66 /* Default-568h@2x.png */; };
+		ABD2DA1F177F2CAB0059BE66 /* MJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD2DA1E177F2CAB0059BE66 /* MJViewController.m */; };
+		ABD2DA22177F2CAB0059BE66 /* MJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD2DA20177F2CAB0059BE66 /* MJViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABD2DA02177F2CAA0059BE66 /* MJPasswordView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJPasswordView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD2DA05177F2CAA0059BE66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABD2DA07177F2CAA0059BE66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABD2DA09177F2CAA0059BE66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABD2DA0D177F2CAA0059BE66 /* MJPasswordView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MJPasswordView-Info.plist"; sourceTree = "<group>"; };
+		ABD2DA0F177F2CAA0059BE66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABD2DA11177F2CAA0059BE66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABD2DA13177F2CAA0059BE66 /* MJPasswordView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MJPasswordView-Prefix.pch"; sourceTree = "<group>"; };
+		ABD2DA14177F2CAA0059BE66 /* MJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJAppDelegate.h; sourceTree = "<group>"; };
+		ABD2DA15177F2CAA0059BE66 /* MJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJAppDelegate.m; sourceTree = "<group>"; };
+		ABD2DA17177F2CAA0059BE66 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ABD2DA19177F2CAA0059BE66 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ABD2DA1B177F2CAA0059BE66 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ABD2DA1D177F2CAB0059BE66 /* MJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJViewController.h; sourceTree = "<group>"; };
+		ABD2DA1E177F2CAB0059BE66 /* MJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJViewController.m; sourceTree = "<group>"; };
+		ABD2DA21177F2CAB0059BE66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MJViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABD2D9FF177F2CAA0059BE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD2DA06177F2CAA0059BE66 /* UIKit.framework in Frameworks */,
+				ABD2DA08177F2CAA0059BE66 /* Foundation.framework in Frameworks */,
+				ABD2DA0A177F2CAA0059BE66 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABD2D9F9177F2CAA0059BE66 = {
+			isa = PBXGroup;
+			children = (
+				ABD2DA0B177F2CAA0059BE66 /* MJPasswordView */,
+				ABD2DA04177F2CAA0059BE66 /* Frameworks */,
+				ABD2DA03177F2CAA0059BE66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABD2DA03177F2CAA0059BE66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2DA02177F2CAA0059BE66 /* MJPasswordView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABD2DA04177F2CAA0059BE66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2DA05177F2CAA0059BE66 /* UIKit.framework */,
+				ABD2DA07177F2CAA0059BE66 /* Foundation.framework */,
+				ABD2DA09177F2CAA0059BE66 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABD2DA0B177F2CAA0059BE66 /* MJPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2DA14177F2CAA0059BE66 /* MJAppDelegate.h */,
+				ABD2DA15177F2CAA0059BE66 /* MJAppDelegate.m */,
+				ABD2DA1D177F2CAB0059BE66 /* MJViewController.h */,
+				ABD2DA1E177F2CAB0059BE66 /* MJViewController.m */,
+				ABD2DA20177F2CAB0059BE66 /* MJViewController.xib */,
+				ABD2DA0C177F2CAA0059BE66 /* Supporting Files */,
+			);
+			path = MJPasswordView;
+			sourceTree = "<group>";
+		};
+		ABD2DA0C177F2CAA0059BE66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2DA0D177F2CAA0059BE66 /* MJPasswordView-Info.plist */,
+				ABD2DA0E177F2CAA0059BE66 /* InfoPlist.strings */,
+				ABD2DA11177F2CAA0059BE66 /* main.m */,
+				ABD2DA13177F2CAA0059BE66 /* MJPasswordView-Prefix.pch */,
+				ABD2DA17177F2CAA0059BE66 /* Default.png */,
+				ABD2DA19177F2CAA0059BE66 /* Default@2x.png */,
+				ABD2DA1B177F2CAA0059BE66 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABD2DA01177F2CAA0059BE66 /* MJPasswordView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD2DA25177F2CAB0059BE66 /* Build configuration list for PBXNativeTarget "MJPasswordView" */;
+			buildPhases = (
+				ABD2D9FE177F2CAA0059BE66 /* Sources */,
+				ABD2D9FF177F2CAA0059BE66 /* Frameworks */,
+				ABD2DA00177F2CAA0059BE66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJPasswordView;
+			productName = MJPasswordView;
+			productReference = ABD2DA02177F2CAA0059BE66 /* MJPasswordView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABD2D9FA177F2CAA0059BE66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MJ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "倪敏杰";
+			};
+			buildConfigurationList = ABD2D9FD177F2CAA0059BE66 /* Build configuration list for PBXProject "MJPasswordView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABD2D9F9177F2CAA0059BE66;
+			productRefGroup = ABD2DA03177F2CAA0059BE66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABD2DA01177F2CAA0059BE66 /* MJPasswordView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABD2DA00177F2CAA0059BE66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD2DA10177F2CAA0059BE66 /* InfoPlist.strings in Resources */,
+				ABD2DA18177F2CAA0059BE66 /* Default.png in Resources */,
+				ABD2DA1A177F2CAA0059BE66 /* Default@2x.png in Resources */,
+				ABD2DA1C177F2CAA0059BE66 /* Default-568h@2x.png in Resources */,
+				ABD2DA22177F2CAB0059BE66 /* MJViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABD2D9FE177F2CAA0059BE66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD2DA12177F2CAA0059BE66 /* main.m in Sources */,
+				ABD2DA16177F2CAA0059BE66 /* MJAppDelegate.m in Sources */,
+				ABD2DA1F177F2CAB0059BE66 /* MJViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABD2DA0E177F2CAA0059BE66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD2DA0F177F2CAA0059BE66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABD2DA20177F2CAB0059BE66 /* MJViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD2DA21177F2CAB0059BE66 /* en */,
+			);
+			name = MJViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABD2DA23177F2CAB0059BE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABD2DA24177F2CAB0059BE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABD2DA26177F2CAB0059BE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MJPasswordView/MJPasswordView-Prefix.pch";
+				INFOPLIST_FILE = "MJPasswordView/MJPasswordView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABD2DA27177F2CAB0059BE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MJPasswordView/MJPasswordView-Prefix.pch";
+				INFOPLIST_FILE = "MJPasswordView/MJPasswordView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABD2D9FD177F2CAA0059BE66 /* Build configuration list for PBXProject "MJPasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD2DA23177F2CAB0059BE66 /* Debug */,
+				ABD2DA24177F2CAB0059BE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD2DA25177F2CAB0059BE66 /* Build configuration list for PBXNativeTarget "MJPasswordView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD2DA26177F2CAB0059BE66 /* Debug */,
+				ABD2DA27177F2CAB0059BE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABD2D9FA177F2CAA0059BE66 /* Project object */;
+}
