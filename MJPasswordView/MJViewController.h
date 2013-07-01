@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MJPasswordView.h"
 
-@interface MJViewController : UIViewController
+@interface MJViewController : UIViewController<MJPasswordDelegate>
+{
+    
+}
 
 @end

@@ -22,7 +22,7 @@
     int circleId = [[circleIds objectAtIndex:0] intValue];
     CGPoint point = [self getPointWithId:circleId];
     CGContextSetLineWidth(ctx, kPathWidth);
-    
+    CGContextSetLineJoin(ctx, kCGLineJoinRound);
     CGContextSetStrokeColor(ctx,CGColorGetComponents(self.passwordView.pathColour.CGColor));
     CGContextBeginPath(ctx);
     

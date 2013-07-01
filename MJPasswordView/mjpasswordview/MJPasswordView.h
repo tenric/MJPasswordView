@@ -15,7 +15,25 @@
 
 #define kPathWidth 6.0
 
+#define kMinPasswordLength 3
+
+typedef enum ePasswordSate {
+    ePasswordUnset,
+    ePasswordRepeat,
+    ePasswordExist
+}ePasswordSate;
+
+@class MJPasswordView;
+
+@protocol MJPasswordDelegate <NSObject>
+
+- (void)passwordView:(MJPasswordView*)passwordView withPassword:(NSString*)password;
+
+@end
+
 @interface MJPasswordView : UIView
+
+@property (nonatomic,assign) id<MJPasswordDelegate> delegate;
 
 @property (nonatomic,retain) UIColor* circleFillColour;
 @property (nonatomic,retain) UIColor* circleFillColourHighlighted;

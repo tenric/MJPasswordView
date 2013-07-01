@@ -152,6 +152,14 @@
 {
     [super touchesEnded:touches withEvent:event];
     
+    NSString* password = [self getPassword:self.trackingIds];
+    
+    if (password.length > kMinPasswordLength)
+    {
+        [self.delegate passwordView:self withPassword:password];
+    }
+    
+    
     [self resetTrackingState];
     
 }
@@ -202,5 +210,15 @@
     BOOL isContain = ((center.x-point.x)*(center.x-point.x)+(center.y-point.y)*(center.y-point.y)-kCircleRadius*kCircleRadius)<0;
     return isContain;
 }
-    
+
+- (NSString*)getPassword:(NSArray*)array
+{
+    NSMutableString* password = [[[NSMutableString alloc] initWithCapacity:9] autorelease];
+    for (int i = 0; i < [array count]; i++)
+    {
+        NSNumber* number = [array objectAtIndex:i];
+        [password appendFormat:@"%d",[number intValue]];
+    }
+    return password;
+}
 @end
