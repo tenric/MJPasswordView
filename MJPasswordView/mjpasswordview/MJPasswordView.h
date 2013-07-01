@@ -2,8 +2,8 @@
 //  MJPasswordView.h
 //  MJPasswordView
 //
-//  Created by 倪敏杰 on 13-6-29.
-//  Copyright (c) 2013年 倪敏杰. All rights reserved.
+//  Created by tenric on 13-6-29.
+//  Copyright (c) 2013年 tenric. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -17,22 +17,25 @@
 
 #define kMinPasswordLength 3
 
+//密码状态
 typedef enum ePasswordSate {
-    ePasswordUnset,
-    ePasswordRepeat,
-    ePasswordExist
+    ePasswordUnset,//未设置
+    ePasswordRepeat,//重复输入
+    ePasswordExist//密码设置成功
 }ePasswordSate;
 
 @class MJPasswordView;
 
 @protocol MJPasswordDelegate <NSObject>
 
+/** 密码输入完毕回调 */
 - (void)passwordView:(MJPasswordView*)passwordView withPassword:(NSString*)password;
 
 @end
 
 @interface MJPasswordView : UIView
 
+/** 代理 */
 @property (nonatomic,assign) id<MJPasswordDelegate> delegate;
 
 @property (nonatomic,retain) UIColor* circleFillColour;
@@ -41,6 +44,7 @@ typedef enum ePasswordSate {
 @property (nonatomic,retain) UIColor* pathColour;
 
 @property (nonatomic,assign) CGPoint previousTouchPoint;
+
 @property (nonatomic,assign) BOOL isTracking;
 
 @property (nonatomic,retain) NSMutableArray* circleLayers;

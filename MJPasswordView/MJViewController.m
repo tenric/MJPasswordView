@@ -2,8 +2,8 @@
 //  MJViewController.m
 //  MJPasswordView
 //
-//  Created by 倪敏杰 on 13-6-29.
-//  Copyright (c) 2013年 倪敏杰. All rights reserved.
+//  Created by tenric on 13-6-29.
+//  Copyright (c) 2013年 tenric. All rights reserved.
 //
 
 #import "MJViewController.h"
@@ -49,7 +49,14 @@
     
     self.infoLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 60, 300, 30)];
     self.infoLabel.backgroundColor = [UIColor clearColor];
-    self.infoLabel.textAlignment = UITextAlignmentCenter;
+    if ([[UIDevice currentDevice].systemVersion floatValue]>=6.0)
+    {
+        self.infoLabel.textAlignment =  NSTextAlignmentCenter;
+    }
+    else
+    {
+        self.infoLabel.textAlignment = UITextAlignmentCenter;
+    }
     self.infoLabel.textColor = [UIColor redColor];
     [self.view addSubview:self.infoLabel];
     

@@ -2,8 +2,8 @@
 //  MJPasswordView.m
 //  MJPasswordView
 //
-//  Created by 倪敏杰 on 13-6-29.
-//  Copyright (c) 2013年 倪敏杰. All rights reserved.
+//  Created by tenric on 13-6-29.
+//  Copyright (c) 2013年 tenric. All rights reserved.
 //
 
 #import "MJPasswordView.h"
@@ -154,12 +154,12 @@
     
     NSString* password = [self getPassword:self.trackingIds];
     
+    //密码输入完毕回调
     if (password.length > kMinPasswordLength)
     {
         [self.delegate passwordView:self withPassword:password];
     }
-    
-    
+
     [self resetTrackingState];
     
 }
